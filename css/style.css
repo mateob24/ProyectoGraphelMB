@@ -1,0 +1,349 @@
+/* VISTA INICIO */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: white;
+}
+
+header{
+  background-color: #24282B;
+  border-bottom: 5px solid #1293D4;
+  height: 130px;
+}
+
+header h1{
+  color: white;
+  padding-top: 38px;
+  padding-left: 140px;
+  float: left;
+  font-size: 40px;
+}
+
+header h1 span{
+  color: #1293D4
+}
+
+nav{
+  float: right;
+  padding-top: 53px;
+  padding-right: 190px;
+  font-size: 22px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 0px 26px;
+}
+
+#letraAzul{
+  color: #1293D4
+}
+
+#primera{
+  color: white;
+  text-align: center;
+  height: 700px;
+  background-image: url(../images/cabecera.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#primera h2{
+  padding-top: 200px;
+  font-size: 84px;
+}
+
+#primera p{
+  font-size: 20px;
+  padding: 30px 350px;
+}
+
+#suscribirse{
+  background-color: #24282B;
+  height: 130px;
+  padding-right: 210px;
+}
+
+#suscribirse h2{
+  color: white;
+  float: left;
+  padding: 44px 150px;
+  font-size: 30px;
+}
+
+#suscribirse input{
+  float: right;
+  font-size: 22px;
+  margin: 44px 2px;
+}
+
+#correo{
+  padding: 7px;
+  border-radius: 3px;
+  width: 360px;
+}
+
+#boton{
+  padding: 8px;
+  border-radius: 3px;
+  background-color: #e8491d;
+  color: white;
+  border: #e8491d;
+  width: 150px;
+}
+
+
+
+#tercera{
+  display: flex;
+  height: 400px;
+  padding-top: 80px;
+  padding-left: 380px;
+  text-align: center;
+}
+
+#tercera div{
+  padding: 20px;
+}
+
+#tercera img{
+  height: 180px;
+}
+
+#tercera h3{
+  font-size: 30px;
+}
+
+#tercera p{
+  font-size: 18px;
+  width: 480px;
+}
+
+#f1{
+  height: 80px;
+  background-color: #1293D4;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#f1 p{
+  padding-top: 16px;
+  font-size: 23px;
+}
+
+/* ---------------------------------------------------------- */
+
+/* VISTA NOSOTROS */
+
+#email{
+  padding: 7px;
+  border-radius: 3px;
+  width: 360px;
+}
+
+#enviar{
+  padding: 8px;
+  border-radius: 3px;
+  background-color: #e8491d;
+  color: white;
+  border: #e8491d;
+  width: 150px;
+}
+
+#NOSOTROS{
+  padding-top: 25px;
+  padding-left: 140px;
+  width: 1360px;
+  text-align: justify;
+  font-size: 25px;
+  float: left;
+}
+
+#NOSOTROS h2{
+  font-size: 30px;
+}
+
+#NOSOTROS #p2{
+  background-color: #35424A;
+  color: white;
+  padding: 20px;
+  margin: 30px 0px;
+}
+
+#NOSOTROS img{
+  width: 1360px;
+  margin-bottom: 22px;
+}
+
+#comentario{
+  padding: 36px 26px;
+  width: 480px;
+  text-align: justify;
+  font-size: 23px;
+  background-color: #35424A;
+  color: white;
+  float: right;
+  margin-top: 30px;
+  margin-right: 170px;
+}
+
+#comentario h2{
+  font-size: 30px;
+}
+
+#f2{
+  height: 80px;
+  background-color: #1293D4;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#f2 p{
+  padding-top: 16px;
+  font-size: 23px;
+}
+
+.clear{
+  clear: both;
+}
+
+
+/* ---------------------------------------------------------- */
+
+/* VISTA SERVICIOS */
+
+#SERVICIOS{
+  padding-top: 25px;
+  padding-left: 140px;
+  width: 1360px;
+  text-align: justify;
+  font-size: 24px;
+  float: left;
+  margin-bottom: 30px;
+}
+
+#SERVICIOS h2{
+  font-size: 30px;
+}
+
+#SERVICIOS article{
+  padding: 50px 30px;
+  margin: 4px;
+}
+
+#web{
+  border: #dfdfdf solid 3px;
+  background-color: #E6E6E6;
+}
+
+#web1{
+  border: #dfdfdf solid 3px;
+  background-color: #E6E6E6;
+}
+
+#web2{
+  border: #dfdfdf solid 3px;
+  background-color: #E6E6E6;
+}
+
+#f3{
+  height: 80px;
+  background-color: #1293D4;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#f3 p{
+  padding-top: 16px;
+  font-size: 23px;
+}
+
+
+/* ---------------------------------------------------------- */
+
+/* VISTA CONTACTO */
+
+#fondoGris{
+  background-color: #e6e6e6d8;
+}
+
+#CONTACTO{
+  padding-top: 25px;
+  padding-left: 140px;
+  text-align: justify;
+  float: left;
+  font-size: 23px;
+}
+
+#CONTACTO h2{
+  font-size: 30px;
+}
+
+#CONTACTO input{
+  margin: 7px 0px;
+  font-size: 23px;
+  width: 1360px;
+  height: 50px;
+  border: #cecece solid 3px;
+}
+
+#mensaje{
+  margin: 7px 0px;
+  font-size: 23px;
+  width: 1360px;
+  height: 200px;
+  border: #cecece solid 3px;
+}
+
+#botonEnviar{
+  background-color: #e8491d;
+  color: white;
+  border: none;
+}
+
+#hacemos{
+  padding: 36px 26px;
+  width: 480px;
+  text-align: justify;
+  font-size: 23px;
+  background-color: #35424A;
+  color: white;
+  float: right;
+  margin-top: 30px;
+  margin-right: 170px;
+}
+
+#hacemos h2{
+  font-size: 30px;
+}
+
+#mapa{
+  float: right;
+  width: 534px;
+  margin-top: 30px;
+  margin-right: 170px;
+}
+
+#f4{
+  height: 80px;
+  background-color: #1293D4;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 34px;
+}
+
+#f4 p{
+  padding-top: 16px;
+  font-size: 23px;
+}
